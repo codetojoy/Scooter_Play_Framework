@@ -1,0 +1,6 @@
+
+GET    /                     v1.attendee.AttendeeController.list(request:Request)
+POST   /                     v1.attendee.AttendeeController.create(request:Request)
+
+GET    /:id                  v1.attendee.AttendeeController.show(request:Request,id)
+PUT    /:id                  v1.attendee.AttendeeController.update(request:Request, id)
