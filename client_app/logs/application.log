@@ -1,0 +1,8 @@
+2023-04-02 12:38:05,172 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2023-04-02 12:38:05,279 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-5 - Application started (Dev) (no global state)
+2023-04-02 12:38:22,559 [INFO] from play.api.internal.libs.concurrent.CoordinatedShutdownSupport in pool-5-thread-4 - Starting synchronous coordinated shutdown with ServerStoppedReason reason and 35000 milliseconds timeout
+2023-04-02 12:38:22,562 [INFO] from akka.actor.CoordinatedShutdown in play-dev-mode-akka.actor.default-dispatcher-5 - Running CoordinatedShutdown with reason [ServerStoppedReason]
+2023-04-02 12:38:22,563 [INFO] from play.core.server.AkkaHttpServer in pool-5-thread-4 - Stopping Akka HTTP server...
+2023-04-02 12:38:22,570 [INFO] from play.core.server.AkkaHttpServer in play-dev-mode-akka.actor.internal-dispatcher-2 - Terminating server binding for /0:0:0:0:0:0:0:0:5150
+2023-04-02 12:38:22,589 [INFO] from akka.actor.CoordinatedShutdown in application-akka.actor.default-dispatcher-4 - Running CoordinatedShutdown with reason [ApplicationStoppedReason]
+2023-04-02 12:38:22,612 [INFO] from play.core.server.AkkaHttpServer in play-dev-mode-akka.actor.internal-dispatcher-11 - Running provided shutdown stop hooks
