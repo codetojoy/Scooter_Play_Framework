@@ -1,2 +1,3 @@
 GET     /                           controllers.HomeController.index
 
+GET     /go                         controllers.HomeController.go

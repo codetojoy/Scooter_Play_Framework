@@ -1,4 +1,6 @@
-@()
+@import com.fasterxml.jackson.databind.JsonNode
+
+@(jsonStr: String)
 <!doctype html>
 
 <html lang="en">
@@ -8,10 +10,10 @@
   </head>
 
   <body>
-    <h2>TRACER: home page</h2>
+    <h2>TRACER: attendees sandbox</h2>
     <hr/>
-    <p>
-      welcome to scooter
-    </p>
+<pre>
+@jsonStr
+</pre>
   </body>
 </html>
